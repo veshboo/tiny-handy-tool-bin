@@ -1,0 +1,9 @@
+#!/bin/bash
+
+todo_args=""
+if [ "x$#x" = "x0x" ]; then
+    todo_args="*"
+else
+    todo_args="$@"
+fi
+grep -r "\<TODO\>\|\<FIXME\>\|\<XXX\>" $todo_args

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# pandoc command line to convert markdown with latex
+# to html with mathjax output to stdout
+#
+# Usage:
+# $ pandoc-html {markdown-file.md}
+pandoc -s --mathjax -t html $@

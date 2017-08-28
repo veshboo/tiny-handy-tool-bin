@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Easy run single / standalone / toy java program using gradle
+# need 'run' task in build.gradle (@see ~/Works/practice/topcoder/build.gradle)
+# ---
+# task run(type: JavaExec) {
+#     classpath = sourceSets.main.runtimeClasspath
+#     // println "classpath=" + classpath.getAsPath()
+#     if (project.hasProperty('cmd')) {
+#         List<String> cmdArgs = Arrays.asList(cmd.split(" "))
+#         // println cmdArgs
+#         if (cmdArgs.size() <= 0) {
+#             throw new GradleException("property 'cmd' is empty")
+#         }
+#         main = cmdArgs.get(0);
+#         args = cmdArgs.subList(1, cmdArgs.size())
+#     }
+#     // println "commandLine=$commandLine"
+# }
+
+# TODO: check if build.gradle has 'run' task
+gradle -q run -Pcmd=$@
