@@ -5,8 +5,8 @@ Tiny handy (type saver) scripts
 ## Install
 
 ```shell
-cd ~/.local/bin  # Any bin directory on your $PATH
-git clone https://github.com/tiny-handy-tool-bin.git bin
+cd ~/.local  # Seeing bin directory on your $PATH
+git clone https://github.com/veshboo/tiny-handy-tool-bin.git bin
 ```
 ## Provides and Dependencies
 
