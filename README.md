@@ -16,3 +16,4 @@ git clone https://github.com/tiny-handy-tool-bin.git bin
     * node, npm, jacoco-parse
 * pandoc-html: Convert pandoc markdown with latex to html with mathjax
     * pandoc
+* todo: grep FIXME, TODO, XXX recursively
